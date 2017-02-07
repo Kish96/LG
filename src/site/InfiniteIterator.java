@@ -6,7 +6,9 @@ import java.util.Iterator;
 public class InfiniteIterator <T> implements Iterator{
 	
 	private Collection<T> c;
-	private Object currentIterator;
+	private Iterator<T> currentIterator;
+	//private Object currentIterator;
+
 	
 	
 	public InfiniteIterator(Collection<T> c){
